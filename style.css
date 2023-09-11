@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+
+.container {
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 1.5rem;
+  background-color: rgba(5, 125, 109, 0.433);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 5px black;
+  gap: 1.75rem;
+}
+
+.container h1 {
+  font-size: 1.8rem;
+  color: #007BFF;
+}
+
+.container input {
+  height: 2.5rem;
+  width: 100%;
+  font-size: 1.2rem;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  border: 1px solid #ccc;
+  border-radius: 0.75rem;
+  background: white;
+  box-shadow: inset -5px -5px 10px rgb(255, 255, 255, 0.2),  inset 5px 5px 10px rgb(0, 0, 0, 0.2);
+}
+
+.container select {
+  border: 1px solid #ccc;
+  margin-right: 1rem;
+  font-size: 1rem;
+  border: 0;
+  outline: 0;
+  border-radius: 0.25rem;
+}
+
+.container button {
+  border: 0;
+  outline: 0;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  background-color: #007BFF;
+  box-shadow: -5px -5px 10px rgb(255, 255, 255, 0.2), 5px 5px 10px rgb(0, 0, 0, 0.2);;
+}
+
+.container button:hover {
+  background-color: #035bb8;
+}
+
+.container button:active {
+  box-shadow: inset -5px -5px 15px rgb(255, 255, 255, 0.2), inset 5px 5px 10px rgb(0, 0, 0, 0.3);
+}
