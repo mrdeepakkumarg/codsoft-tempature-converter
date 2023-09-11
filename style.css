@@ -40,16 +40,16 @@
   outline: 0;
   border: 1px solid #ccc;
   border-radius: 0.75rem;
-  background: white;
+  background: transparent;
   box-shadow: inset -5px -5px 10px rgb(255, 255, 255, 0.2),  inset 5px 5px 10px rgb(0, 0, 0, 0.2);
 }
 
 .container select {
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   margin-right: 1rem;
   font-size: 1rem;
-  border: 0;
   outline: 0;
+  background: transparent;
   border-radius: 0.25rem;
 }
 
